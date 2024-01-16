@@ -129,14 +129,26 @@ div h1 {
     }
 
     .signUpInfo{
-        gap: 1rem;
+        gap: 0.5rem;
+        padding: 1rem;
     }
     .signUpInfo h1 {
         font-size: 40px;
     }
     .image{
-        height: 40%;
-        width: 100%;
+      width: 100%;
+      justify-content: start;
+      height: 100%;
+    }
+    .image img{
+      content: url('./assets/images/illustration-sign-up-mobile.svg');
+      width: 100%;
+      border-bottom-left-radius: 1.5rem;
+      border-bottom-right-radius: 1.5rem;
+      object-fit: contain;
+    }
+    ul li{
+      align-items: first baseline;
     }
     
 }
